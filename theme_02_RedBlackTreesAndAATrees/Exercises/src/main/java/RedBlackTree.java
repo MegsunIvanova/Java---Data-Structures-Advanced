@@ -422,7 +422,7 @@ public class RedBlackTree<Key extends Comparable<Key>, Value> {
         }
 
         if (cmp > 0) {
-            return floor(x.right, key);
+            return ceiling(x.right, key);
         }
 
         Node node = ceiling(x.left, key);

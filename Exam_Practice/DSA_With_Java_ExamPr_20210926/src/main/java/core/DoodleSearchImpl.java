@@ -13,8 +13,6 @@ public class DoodleSearchImpl implements DoodleSearch {
     private Map<String, Doodle> doodlesByTitles;
     private Map<String, Doodle> addsDoodlesById;
 
-    private double totalRevenueFromDoodleAds;
-
     public DoodleSearchImpl() {
         this.doodlesById = new LinkedHashMap<>();
         this.doodlesByTitles = new LinkedHashMap<>();
